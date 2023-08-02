@@ -4,6 +4,10 @@ By Quoc Tran (s3827826)
 This project was fully operational and funded by a $100 coupon provided by the university.
 This infrastructure has since been torn down as it will incur extra costs to keep it up and running.
 
+- 'deployment/lambda_function' should be zipped up and uploaded into the lambda. It is left unzipped to see inside.
+- 'scripts' contain basic test scripts for API calls.
+- 'source/TheCoolRoom_django' contains the main Django project that is ran inside the Elastic Beanstalk. This directory should be git enabled so the CodeCommit can trigger the CodePipeline build process whenever commits are made.
+
 ### The Cool Room – System Architecture
 <img width="915" alt="Screenshot 2023-08-02 at 8 49 13 pm" src="https://github.com/quocdattran87/The-Cool-Room-AWS-Cloud-Project/assets/63576134/47794fe5-d844-4850-9de2-b06155672629">
 
